@@ -6,6 +6,7 @@ import SocialLogin from "../../Components/SocialLogin";
 import { Feather as Icon } from "@expo/vector-icons";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import OutfitIdeas from "../../Home/OutfitIdeas";
 
 const emailValidator = (email) => {};
 const Footer = ({ navigation }) => {
@@ -127,7 +128,7 @@ const Login = ({ navigation }) => {
         <View style={{ alignItems: "center", marginTop: 20 }}>
           <Button
             variant="primary"
-            OnPress={() => true}
+            onPress={() => navigation.navigate("Home")}
             label="Log into your account"
           />
         </View>
