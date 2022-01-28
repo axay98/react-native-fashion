@@ -7,7 +7,7 @@ import {
 import { Dimensions, StyleSheet, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-
+import Welcome from "../Welcome/Welcome";
 import Animated, { multiply } from "react-native-reanimated";
 import Subslide from "./Subslide";
 import Slide from "./Slide";

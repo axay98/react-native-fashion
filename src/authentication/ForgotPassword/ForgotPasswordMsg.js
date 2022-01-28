@@ -38,30 +38,38 @@ const ForgotPasswordMsg = ({ navigation }) => {
   return (
     <Container pattern={1} footer={<Footer navigation={navigation} />}>
       <View />
-      <View
-        style={{
-          backgroundColor: "#E9F9F7",
 
-          width: 100,
-          height: 100,
-          borderRadius: 75,
-          justifyContent: "center",
-          marginLeft: 140,
-          marginTop: 20,
-        }}
-      >
-        <Text
+      <View style={{ padding: 40, justifyContent: "center", flex: 1 }}>
+        <View
           style={{
-            textAlign: "center",
+            backgroundColor: "#E9F9F7",
+
+            width: 100,
+            height: 100,
+            borderRadius: 75,
+            alignItems: "center",
             justifyContent: "center",
-            fontSize: 20,
-            opacity: 1,
+            marginLeft: 100,
+            // marginTop: 20,
+            marginBottom: 10,
           }}
         >
-          <Icon name="check" size={34} color="#2CB9B0" style={{ opacity: 1 }} />
-        </Text>
-      </View>
-      <View style={{ padding: 20 }}>
+          <Text
+            style={{
+              textAlign: "center",
+              justifyContent: "center",
+              fontSize: 20,
+              opacity: 1,
+            }}
+          >
+            <Icon
+              name="check"
+              size={34}
+              color="#2CB9B0"
+              style={{ opacity: 1 }}
+            />
+          </Text>
+        </View>
         <Text
           style={{
             fontSize: 28,

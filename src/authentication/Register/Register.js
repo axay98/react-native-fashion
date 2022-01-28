@@ -31,7 +31,7 @@ const Register = ({ navigation }) => {
   return (
     <Container pattern={0} footer={<Footer navigation={navigation} />}>
       <View />
-      <View style={{ padding: 40 }}>
+      <View style={{ padding: 40, justifyContent: "center", flex: 1 }}>
         <Text
           style={{
             fontSize: 28,

@@ -75,12 +75,7 @@ export default function App() {
           name="Authentication"
           component={AuthenticationNavigator}
         />
-        <AppStack.Screen name="HomeApp" component={HomeNavigator} />
-        <AppStack.Screen name="Login" component={Login} />
-        <AppStack.Screen name="Register" component={Register} />
-        <AppStack.Screen name="ForgotPassword" component={ForgotPassword} />
-        <AppStack.Screen name="Home" component={Onboarding} />
-        <AppStack.Screen name="Welcome" component={Welcome} />
+        <AppStack.Screen name="Home" component={HomeNavigator} />
       </AppStack.Navigator>
     </NavigationContainer>
   );

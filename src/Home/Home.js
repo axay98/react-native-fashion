@@ -1,5 +1,6 @@
 import React from "react";
 import { View } from "react-native";
-const Home = () => {
+const Homee = () => {
   return <View></View>;
 };
+export default Homee;

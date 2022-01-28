@@ -32,7 +32,7 @@ const Login = ({ navigation }) => {
   return (
     <Container pattern={1} footer={<Footer navigation={navigation} />}>
       <View />
-      <View style={{ padding: 40 }}>
+      <View style={{ padding: 40, justifyContent: "center", flex: 1 }}>
         <Text
           style={{
             fontSize: 28,
@@ -128,7 +128,7 @@ const Login = ({ navigation }) => {
         <View style={{ alignItems: "center", marginTop: 20 }}>
           <Button
             variant="primary"
-            onPress={() => navigation.navigate("Home")}
+            onPress={() => navigation.navigate("HomeApp")}
             label="Log into your account"
           />
         </View>
